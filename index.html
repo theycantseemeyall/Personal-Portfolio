@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" type="image/png" href="miffy favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-content">
             <h1>I'm Akosua Ofosu-Hene</h1>
-            <p>Welcome to my personal website</p>
+            <p>Welcome to my personal portfolio</p>
             <button onclick="scrollToAbout()">Get to Know Me</button>
         </div>
     </header>
@@ -36,7 +39,7 @@
 
         <section id="about-me" class="section-content">
             <h2>About Me</h2>
-            <p>Details about me...</p>
+            <p>Born to be a biomedical engineer and trauma surgeon, currently 14. Follow me as I venture into the wild and follow my dreams as a Christian teenager.</p>
         </section>
 
         <section id="projects" class="section-content">
@@ -82,13 +85,10 @@
         <section id="contact" class="section-content">
             <h2>Contact Me</h2>
             <div class="social-links">
-              <a href="https://www.pinterest.com/YOUR_USERNAME" target="_blank">
+              <a href="https://uk.pinterest.com/akosuaofosuheneonline/_profile/" target="_blank">
                 <i class="fab fa-pinterest"></i> Pinterest
               </a>
-              <a href="https://www.instagram.com/YOUR_USERNAME" target="_blank">
-                <i class="fab fa-instagram"></i> Instagram
-              </a>
-              <a href="https://www.youtube.com/@YOUR_USERNAME" target="_blank">
+              <a href="https://www.youtube.com/@akosuasmonologue" target="_blank">
                 <i class="fab fa-youtube"></i> YouTube
               </a>
               <a href="mailto:akosuaofosuhene.online@gmail.com">
@@ -97,7 +97,7 @@
               <a href="https://akosuasmonologue.tumblr.com/" target="_blank">
                 <i class="fab fa-tumblr"></i> Tumblr
                </a>
-              <a href="https://github.com/YOUR_USERNAME" target="_blank">
+              <a href="https://github.com/theycantseemeyall" target="_blank">
                 <i class="fab fa-github"></i> GitHub
             </div>
           </section>
@@ -144,25 +144,6 @@
         },
     });
 
-    // Back to Top Button functionality
-    const backToTopButton = document.getElementById("backToTop");
-
-    // Show/hide the button based on scroll position
-    window.onscroll = function () {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    };
-
-    // Scroll to top on button click
-    function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
 </script>
-
-    <button onclick="scrollToTop()" id="backToTop" title="Go to top">↑</button>
-
 </body>
 </html>
